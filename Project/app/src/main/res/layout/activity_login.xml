@@ -7,6 +7,19 @@
     tools:context=".Login">
 
 
+    <Button
+        android:id="@+id/button_forget_password"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/blue"
+        android:text="Forget Password"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="280dp"
@@ -47,5 +60,7 @@
         app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
