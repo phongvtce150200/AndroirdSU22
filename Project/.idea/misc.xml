@@ -4,9 +4,44 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/drawable/custom_button.xml" value="0.1975" />
+        <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/drawable/facebook_customer_button.xml" value="0.1585" />
+        <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/drawable/google_button.xml" value="0.136" />
         <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/drawable/textview_login.xml" value="0.241" />
-        <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/layout/activity_home_page.xml" value="0.215625" />
+        <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/FPT/SU22/PRM/Project/app/src/main/res/layout/viewholder_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/FPT/SU22/PRM/Project2/Project/app/src/main/res/layout/activity_home_page.xml" value="0.2346014492753623" />
+        <entry key="..\:/FPT/SU22/PRM/Project2/Project/app/src/main/res/layout/activity_product_list.xml" value="0.16799999999999998" />
+        <entry key="..\:/FPT/SU22/PRM/Project2/Project/app/src/main/res/layout/itemproduct.xml" value="0.25416666666666665" />
+        <entry key="..\:/FPT/SU22/PRM/Project4(congiohang)/Project/app/src/main/res/drawable/textview_login.xml" value="0.2155" />
+        <entry key="..\:/FPT/SU22/PRM/Project4(congiohang)/Project/app/src/main/res/layout/activity_product.xml" value="0.16" />
+        <entry key="..\:/FPT/SU22/PRM/Project4(congiohang)/Project/app/src/main/res/layout/itemproduct.xml" value="0.264" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/activity_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/activity_login.xml" value="0.23641304347826086" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/activity_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/activity_product_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/activity_recive_otp.xml" value="0.1421875" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/activity_sent_otp.xml" value="0.23641304347826086" />
+        <entry key="..\:/FPT/SU22/PRM/Projetc5/Project/app/src/main/res/layout/itemproduct.xml" value="0.23641304347826086" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/activity_cart_list.xml" value="0.2" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/activity_payment2.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/activity_product.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/activity_product_list.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/customercartview.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project/Project/app/src/main/res/layout/itemproduct.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/drawable-v24/orange_button.xml" value="0.2225" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/layout/activity_product.xml" value="0.26767091541135574" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/layout/activity_product_list.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/vthan/Downloads/Project2/Project/app/src/main/res/layout/itemproduct.xml" value="0.16614583333333333" />
       </map>
     </option>
   </component>

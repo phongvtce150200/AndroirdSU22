@@ -4,63 +4,134 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@color/white">
 
 
-    <Button
-        android:id="@+id/button_forget_password"
-        android:layout_width="108dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="44dp"
-        android:background="@color/blue"
-        android:text="Forget Password"
-        android:textColor="@color/white"
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="373dp"
+        android:layout_height="301dp"
+        android:src="@drawable/icon_login"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <EditText
+        android:id="@+id/UserNameTxt"
         android:layout_width="280dp"
         android:layout_height="50dp"
         android:background="@drawable/textview_login"
-        android:gravity="center"
-        android:text="Email or Phone"
+        android:hint="Username"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.477" />
 
-    <TextView
-        android:id="@+id/textView3"
+    <EditText
+        android:id="@+id/PasswordTxt"
+
         android:layout_width="280dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/textview_login"
         android:gravity="center"
-        android:text="Password"
+        android:hint="Password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/UserNameTxt" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login"
         android:layout_width="108dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="40dp"
-        android:background="@color/blue"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/login_button"
         android:text="Login"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/PasswordTxt" />
 
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/hyperlink1"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordTxt" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/hyperlink2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordTxt" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="67dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/ic_phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/loglinphone"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="68dp"
+        android:background="@color/SMS"
+        android:text="Phone Number"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="52dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/ic_gg50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/GGLogin"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toEndOf="@+id/loglinphone" />
+
+    <Button
+        android:id="@+id/GGLogin"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/google_button"
+        android:text="Google"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toEndOf="@+id/loglinphone" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

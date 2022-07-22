@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.food_ordering">
+    package="com.example.food_ordering" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,12 +14,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Food_Ordering"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
-            android:name=".ViewOrdersActivity"
+            android:name=".PaymentActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgotPassword"
+            android:name=".ActivityPayment"
+            android:exported="false" />
+        <activity
+            android:name=".CartList"
+            android:exported="false" />
+        <activity
+            android:name=".ReciveOTP"
+            android:exported="false" />
+        <activity
+            android:name=".SentOTP"
+            android:exported="false" />
+        <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductList"
             android:exported="false" />
         <activity
             android:name=".Login"
@@ -29,7 +47,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

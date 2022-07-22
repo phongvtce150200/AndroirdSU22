@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Food_Ordering</string>
-    <string name="your_order">Your Order</string>
+    <string name="hyperlink1" color="#0C85E6"><a color="#0C85E6" href="">Forgot Password ?</a></string>
+    <string name="hyperlink2" color="#0C85E6"><a color="#0C85E6" href="">Register</a></string>
 </resources>
